@@ -1,3 +1,4 @@
+from agent_communication_bus import AgentCommunicationBus
 class RiskManagementAgent:
     def __init__(self, bus):
         self.name = "RiskManagementAgent"

@@ -34,7 +34,7 @@ with st.sidebar:
     
     stock_options = [
         'AAPL', 'GOOGL', 'AMZN', 'TSLA', 'MSFT', 'META', 'NVDA', 'NFLX', 'BA', 'SPY',
-        'BABA', 'INTC', 'ORCL', 'V', 'JPM', 'DIS', 'PYPL', 'AMD', 'UBER', 'SHOP'
+        'BABA', 'INTC', 'ORCL', 'V', 'JPM', 'DIS', 'PYPL', 'AMD', 'UBER', 'SHOP','FORD'
     ]
     selected_stocks = st.multiselect("Select stocks to analyze:", stock_options, default=["AAPL"])
     period = st.slider("Time period (days)", 1, 365, 30)

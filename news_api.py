@@ -1,6 +1,7 @@
 import requests
 from datetime import datetime, timedelta
 from transformers import pipeline
+from agent_communication_bus import AgentCommunicationBus
 
 # 🔑 Finnhub API Key
 FINNHUB_API_KEY = "cvorhi1r01qihjtqhsh0cvorhi1r01qihjtqhshg"  
