@@ -3,6 +3,7 @@ import pandas as pd
 from sklearn.linear_model import LinearRegression
 import joblib
 import os
+from agent_communication_bus import AgentCommunicationBus
 
 class TradingStrategyAgent:
     def __init__(self, bus):

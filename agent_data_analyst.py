@@ -1,5 +1,6 @@
 import yfinance as yf
 import pandas as pd
+from agent_communication_bus import AgentCommunicationBus
 
 class DataAnalystAgent:
     def __init__(self, bus):
