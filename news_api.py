@@ -4,7 +4,7 @@ from transformers import pipeline
 from agent_communication_bus import AgentCommunicationBus
 
 # 🔑 Finnhub API Key
-FINNHUB_API_KEY = "cvorhi1r01qihjtqhsh0cvorhi1r01qihjtqhshg"  
+FINNHUB_API_KEY = ""  
 
 # 🧠 Load HuggingFace sentiment pipeline
 sentiment_model = pipeline("sentiment-analysis")
